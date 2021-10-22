@@ -1,0 +1,76 @@
+body {
+  background-image: url("../img/bodyimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  /* margin : 5% 5%; */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* background-color: rgb(223, 227, 233); */
+  background-image: url("../img/joinbackgroundimg.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  z-index: 1;
+  position: relative;
+}
+
+/* header */
+header {
+  /* border: 1px solid black; */
+  width: 100%;
+  height : 80px;
+  padding : 1px;
+  position: relative;
+}
+
+#headerName{
+  font-size : 2em;
+  z-index: 2;
+  text-align: center;
+  margin : 0;
+  padding : 5%;
+}
+
+#headerName a{
+  text-decoration: none;
+  color :rgb(34, 33, 33);
+  position: relative;
+}
+
+#adminSection {
+  height: 1040px;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.adminbox {
+  background-color: rgba(223, 227, 233, 0.739);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-image: url("../img/backgroundimg.png");
+  width : 60%;
+  /* border: 1px solid black; */
+  position : relative;
+  left : 20%;
+}
+
+
+
+/*  */
+
+.tb-header {
+  padding : 10px;
+  width: 5%;
+  font-size: 1.3em;
+}
+
+tbody {
+  padding : 20px;
+  text-align: center;
+  font-size : 1.2em;
+}

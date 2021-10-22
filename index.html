@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HYEMI LEE</title>
+  <link rel="stylesheet" href="css/index_style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+<body>
+  <p id="headerName"><a href="index.html">H Y E M I L E E</a></p>
+  <div id="scrollUpBtn"><a href="#top">⬆</a></div>
+  <div class="container">
+    <header>
+      <nav>
+        <ul id="menu">
+          <li class="navi"><a href="#aboutSection">ABOUT</a></li>
+          <li class="navi"><a href="#interestSection">INTEREST</a></li>
+          <li class="navi"><a href="#roadmapSection">ROADMAP</a></li>
+          <li class="navi"><a href="join.html">JOIN</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section class="section" id="indexSection">
+      <div class="bgBox1">
+        <p class="box_deco deco1">TO INFINITY AND BEYOUND</p>
+        <p class="box_deco deco3">developer</p>
+        <div class="box_deco deco4"></div>
+        <img src="img/img1.jpg">
+        <p class="box_deco deco2">TO INFINITY AND BEYOUND</p>
+      </div>
+      <p id="typing_text" class="box_deco"></p>
+      <script src="js/typing.js"></script>
+    </section> 
+    <section class="section" id="aboutSection">
+      <div class="bgBox2"></div>
+      <img id ="img2" src="img/img2.jpg">
+      <h1 class="title title1">ABOUT ME</h1>
+      <div class="p-box-about">
+        <p>2021년 5월, 신한카드 애플리케이션 오픈뱅킹 서비스 프로젝트에 QC 업무로 한 달 가량 참여한 적이 있습니다. 미완성의 프로그램이 여러 사람들간의 협업을 통해 실시간으로 수정되고, 완성되는 과정은 
+          직접적인 개발 업무를 하지 않은 저에게조차 큰 성취감과 뿌듯함을 안겨주었습니다.</p>
+        <p>그러나 동시에 넘치는 아이디어를 제 손으로 직접 구현해낼 수 있는 기술력을 배워 더 큰 만족감을 얻고 싶다는 생각이 들어 2021년 7월에 개발 공부를 시작하게 되었습니다. 
+            전공자에 비해 당장의 기술적 역량이나 지식은 조금 부족할 수 있지만, 저는 지금까지 제가 해 온 다양한 경험에 빗대어 예상치 못했던 새로운 시각으로 문제를 마주할 수 있는 잠재력과 그것에 끊임없이 부딪힐 수 있는 끈기를 가지고 있는 신입 개발자입니다. </p>
+      </div>
+    </section>
+    <section class="section" id="interestSection">    
+      <h1 class="title title2">INTEREST</h1>
+      <div class="pictures camerapictures visible">
+        <div class="picture camerapicture"><img class="heart heart1" src="img/heart1.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart2" src="img/heart2.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart3" src="img/heart3.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart4" src="img/heart4.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart5" src="img/heart5.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart6" src="img/heart6.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart7" src="img/heart7.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart8" src="img/heart8.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart9" src="img/heart9.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart10" src="img/heart10.jpg"></div>
+        <div class="picture camerapicture"><img class="heart heart11" src="img/heart11.jpg"></div>
+      </div>
+      <div class="pictures petpictures">
+        <div class="picture petpicture"><img src="img/pet1.jpg" class="pet pet1"></div>
+        <div class="picture petpicture"><img src="img/pet2.jpg" class="pet pet2"></div>
+        <div class="picture petpicture"><img src="img/pet3.jpg" class="pet pet3"></div>
+        <div class="picture petpicture"><img src="img/pet4.jpg" class="pet pet4"></div>
+        <div class="picture petpicture"><img src="img/pet5.jpg" class="pet pet5"></div>
+        <div class="picture petpicture"><img src="img/pet6.jpg" class="pet pet6"></div>
+        <div class="picture petpicture"><img src="img/pet7.jpg" class="pet pet7"></div>
+        <div class="picture petpicture"><img src="img/pet8.jpg" class="pet pet8"></div>
+        <div class="picture petpicture"><img src="img/pet9.jpg" class="pet pet9"></div>
+        <div class="picture petpicture"><img src="img/pet10.jpg" class="pet pet10"></div>
+        <div class="picture petpicture"><img src="img/pet11.jpg" class="pet pet11"></div>
+      </div>
+      <button type="button" class="btn" id="camera_btn" onclick="camera();"><span class="material-icons" id="camera">photo_camera</span>
+      <button type="button" class="btn" id="pet_btn" onclick="pet();"><span class="material-icons" id="pets">pets</span></button>
+      <div class="p-box-interest p-box-camera visible"><p>사소한 일상이 새롭게 느껴지는 순간을 좋아합니다.<br>길가에 핀 꽃, 낙엽, 놀이기구, 바다 등<br>쉽게 접할 수 있는 풍경에서 낯선 기분을 느낄 때의 감정을<br>
+        사진으로 담아내는 취미를 가지고 있습니다.</p></div>
+      <div class="p-box-interest p-box-pet"><p>13년째 저와 함께 하고 있는 강아지 또또(<span style="color : rgb(246, 153, 153)">♥</span>)입니다.<br>제게 늘 애정을 주는 작은 친구와 오랜 기간 같이 지내면서<br>고맙게도 긍정적인 영향을 많이 받고 있습니다.<br>
+      </p></div>
+    </section>
+    <section class="section" id="roadmapSection">
+      <h1 class="title title3">ROADMAP</h1>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+      <p class="r-text r-text1"><span class="date"><b>2022년 2월</b></span><br>KH정보교육원<br>스마트 콘텐츠와 웹 융합<br>응용SW개발자 양성과정 수료</p>
+      <p class="r-text r-text2"><span class="date"><b>2024년 5월</b></span><br>보다 깊은 CS지식을 쌓고<br>지금까지 진행한<br>실무 프로젝트를 기반으로 이직</p>
+      <p class="r-text r-text3"><span class="date"><b>2026년 9월</b></span><br>DB 관련 공부를 깊게 해서<br>DB 직무를 자신있게<br>맡을 수 있는 개발자로 성장</p> 
+    </section>        
+    </main>
+    <footer>
+      <!-- 하단의 정보 부분... 나중에 채우기.... -->
+    </footer>
+    </div>
+    <script src="js/scroll_event.js"></script>
+</body>
+
+</html>

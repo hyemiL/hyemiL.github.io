@@ -1,0 +1,417 @@
+body {
+  background-image: url("../img/bodyimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  margin : 5% 5%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: rgb(223, 227, 233);
+  background-image: url("../img/backgroundimg.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  z-index: 1;
+}
+
+#scrollUpBtn {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right : 1%;
+  bottom: 5%;
+  text-align: center;
+  font-size: 5em;
+}
+
+#scrollUpBtn a{
+  text-decoration: none;
+  color : rgba(168, 175, 179, 0.815);
+}
+
+#scrollUpBtn a:hover {
+  text-decoration: none;
+  color : rgb(155, 174, 191);
+}
+
+/* header */
+header {
+  /* border: 1px solid black; */
+  width: 100%;
+  height : 80px;
+  padding : 1px;
+  position: relative;
+}
+
+#headerName{
+  font-size : 2em;
+  z-index: 2;
+  text-align: center;
+  margin-top : 5%;
+}
+
+#headerName a{
+  text-decoration: none;
+  color :rgb(34, 33, 33);
+}
+
+/* nav */
+#menu {
+  list-style-type: none;
+  position: relative;
+  text-align: right;
+}
+
+.navi {
+  display: inline-block;
+  padding: 20px;  
+}
+
+.navi a {
+  color : rgb(34, 33, 33);
+  text-decoration: none;
+  font-size : 15px;
+}
+
+.navi a:hover {
+  text-shadow: 3px 3px 10px rgb(155, 174, 191);
+  color : rgb(184, 197,205);
+}
+
+/* wrapper */
+.section {
+  position : relative;
+}
+#indexSection {
+  height: 600px;
+  /* border: 1px solid black; */
+}
+
+#aboutSection {
+  height: 700px;
+  /* border: 1px solid black; */
+  /* animation : fadein 7s; */
+  /* animation-fill-mode: forwards; */
+  opacity: 0;
+}  
+
+#aboutSection.visible {
+  animation: fadein 7s;
+  animation-fill-mode: forwards;
+}
+
+#interestSection {
+  height: 1300px;
+  /* border: 1px solid #000; */
+  opacity: 0;
+}
+
+
+#interestSection.visible {
+  animation: fadein 7s;
+  animation-fill-mode: forwards;
+}
+
+#roadmapSection {
+  height: 800px;
+  /* border: 1px solid #000; */
+  opacity: 0;
+}
+
+#roadmapSection.visible {
+  animation: fadein 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity : 1;
+  } to {
+    opacity : 0;
+  }
+}
+
+/* index */
+.bgBox1 {
+  width : 420px;
+    height: 550px;
+    background-color: rgba(119, 148, 160, 0.486);
+    position: relative;
+    left : 10%;
+    top : 5%;
+    padding: 0;
+}   
+.bgBox1 img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top : 15%;
+  left : 15%;
+}  
+.box_deco {
+  font-size: 2em;
+  margin: 0;
+  color :rgb(223, 227, 233);
+}  
+.deco1 {
+  position: absolute;
+  top : 0;
+}  
+.deco2 {
+  position: absolute;
+  bottom : 0;
+}  
+.deco3 {
+  position: absolute;
+  writing-mode: vertical-lr;
+  left : 5%;
+  top: 30%;
+  font-size: 1.5rem;
+}  
+.deco4 {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.774);
+  height: 270px;
+  position: absolute;
+  bottom: 0;
+  left : 8%;
+}  
+#typing_text{
+  right : 10%;
+  top : 200px;
+  font-size: 4em;
+  text-align: right;
+  position : absolute;
+  display: inline-block;
+  color : white;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}  
+
+/* 공통 title */
+.title {
+  display: inline-block;
+  color : white;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-size: 5em;
+  position : absolute;
+  top : 10%;
+}  
+
+
+/* about */
+.title1 {
+  left : 18%;
+}  
+.bgBox2{
+  width: 270px;
+  height: 370px;
+  background-color:black;
+  position: absolute;
+  right: 10%;
+  bottom : 12%;
+}  
+#img2 {
+  width: 260px;
+  height: 360px;
+  position: absolute;
+  right : 12%;
+  bottom : 15%;
+}  
+
+.p-box-about {
+  position: absolute;
+  width: 45%;
+  height: 55%;
+  /* border: 1px solid black; */
+  left : 13%;
+  bottom : 5%;
+  font-size: 1.3em;
+  color : rgb(34, 33, 33);
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(36, 35, 35, 0.22);
+  font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+
+/* INTEREST */
+.title2 {
+  right : 15%;
+  top : 5%;
+}  
+
+.pictures {
+ /* border: 1px solid black; */
+ width: 600px;
+ height: 600px;
+ position: absolute;
+ top : 35%;
+ left : 25%;
+ animation: motion 0.5s linear 0s infinite alternate;
+}
+
+.heart, .pet {
+  float: left;
+  width: 120px;
+  height: 150px;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.25), 0 10px 10px rgba(36, 35, 35, 0.22);
+  overflow: hidden;
+}
+
+.heart3, .heart8, .heart11, .pet3, .pet8, .pet11{
+  clear: both;
+}
+
+.heart1, .heart8, .pet1, .pet8 {
+  position: relative;
+  left:120px;
+}
+
+.heart2, .heart9, .heart11, .pet2, .pet9, .pet11{
+  position: relative;
+  left:240px;
+}
+
+.btn {
+  border : none;
+  background-color: rgba(255, 255, 255, 0);
+  top : 20%;
+  left : 20%;
+  position: relative;
+  margin: 3%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#pets, #camera {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pets:hover, #camera:hover {
+  color :rgb(155, 174, 191);
+}
+
+.petpictures, .p-box-pet {
+  opacity: 0;
+}
+
+.petpictures.visible, .camerapictures.visible, .p-box-pet.visible, .p-box-camera.visible{
+  opacity: 1;
+}
+
+
+@keyframes motion {
+  0% {margin-top : 0px;}
+  100% {margin-top: 10px;}
+}
+
+.p-box-interest {
+  /* border : 1px solid #000; */
+  position: absolute;
+  width: 45%;
+  height: 30%;
+  bottom : -15%;
+  left : 27%;
+  font-size: 1.3em;
+  color : rgb(34, 33, 33);
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(36, 35, 35, 0.22);
+  font-family: 'Gowun Dodum', sans-serif;
+  text-align: center;
+  opacity: 0;
+
+}
+
+
+
+/* ROADMAP */
+.title3 {
+  top : 3%;
+  left : 33%;
+}
+
+.roadmapBox {
+  position: relative;
+  top : 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height:10px;
+  width: 200px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  margin : 0;
+  position: relative;
+  left : 18%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(36, 35, 35, 0.22);
+  /* transition: all 0.3s linear; */
+  top : 65%;
+}
+
+.box1 {
+  background-color: rgba(240, 139, 139, 0.472);
+}
+
+.box2 {
+  background-color: rgba(247, 247, 127, 0.356);
+}
+
+.box3 {
+  background-color: rgba(133, 247, 133, 0.336);
+}
+
+.box4 {
+    background-color: rgba(140, 140, 236, 0.438);
+}
+
+
+.r-text {
+  position:absolute;
+  display: inline-block;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Gowun Dodum', sans-serif;
+  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(36, 35, 35, 0.22);
+  top:40%;
+  transition : all 2s linear;
+}
+
+.r-text:hover {
+  transform: scale(1.5);
+}
+
+.date {
+  font-size: 1.7em;
+  color : rgb(255, 255, 255);
+}
+
+.r-text1 {
+  left : 20%;
+}
+
+.r-text2{
+  left : 41%;
+}
+
+.r-text3 {
+  left:63%;
+}
